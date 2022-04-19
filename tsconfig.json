@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/",
+    "target": "ES2022",
+    "module": "ES2022",
+    "strict": true,
+    "declaration": true
+  },
+  "files": ["src/trigger-in-view.ts"]
+}

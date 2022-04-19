@@ -1,0 +1,29 @@
+{
+  "name": "@andrew_mason/trigger-in-view",
+  "version": "1.0.0",
+  "description": "Utility helper to trigger callback when HTML elements are in view",
+  "main": "dist/trigger-in-view.js",
+  "module": "dist/trigger-in-view.js",
+  "scripts": {
+    "build": "esbuild src/trigger-in-view.ts --format=esm --outfile=dist/trigger-in-view.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andymason/trigger-in-view.git"
+  },
+  "keywords": [
+    "utility",
+    "helper",
+    "intersectionobserver"
+  ],
+  "author": "Andrew Mason <andrew@coderonfire.com> (https://coderonfire.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andymason/trigger-in-view/issues"
+  },
+  "homepage": "https://github.com/andymason/trigger-in-view#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "types": "./dist/trigger-in-view.d.ts"
+}
