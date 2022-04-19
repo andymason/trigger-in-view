@@ -5,7 +5,7 @@
   "main": "dist/trigger-in-view.js",
   "module": "dist/trigger-in-view.js",
   "scripts": {
-    "build": "esbuild src/trigger-in-view.ts --format=esm --outfile=dist/trigger-in-view.js"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
