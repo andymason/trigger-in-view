@@ -18,4 +18,4 @@ export declare class ScrollIntoViewTrigger {
     check: () => void;
     destroy: () => void;
 }
-export {};
+export default ScrollIntoViewTrigger;

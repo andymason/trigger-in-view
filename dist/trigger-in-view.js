@@ -51,3 +51,4 @@ export class ScrollIntoViewTrigger {
         this.rootElement.removeEventListener("scroll", this.#onScroll);
     };
 }
+export default ScrollIntoViewTrigger;
