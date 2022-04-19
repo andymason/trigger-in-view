@@ -69,6 +69,7 @@ const triggerInView = new TriggerInView({
   rootEl: containerElement,
   targetElements: childElements,
   intersectionCallback: myInViewFunction,
+  triggerOncePerItem: true,
 });
 
 triggerInView.check();
